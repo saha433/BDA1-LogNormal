@@ -1,0 +1,12 @@
+BDA Assignment-1 Q1: Min, Max, Mean (Log-Normal)
+Total elements : 2^40 = 1099511627776
+Distribution   : Log-Normal(mu=20.03, sigma=0.50) clamped to [0, 10^9]
+Theoretical    : Median ≈ e^mu = 499940675, Mean ≈ e^(mu+sigma^2/2) = 566507003
+Threads        : 8
+
+
+===== RESULTS =====
+Minimum : 25585245
+Maximum : 1000000000
+Mean    : 542985472.506593
+Time    : 82019.96 seconds

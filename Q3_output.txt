@@ -1,0 +1,35 @@
+BDA Assignment-1 Q3: Sorting Subsequences (Log-Normal)
+Total elements      : 10^9 = 1000000000
+Subsequences        : 1000
+Elements per subseq : 1000000
+Distribution        : Log-Normal (sigma=0.15, median centred per subseq)
+Threads             : 8
+
+  Progress: 100 / 1000 subsequences sorted
+  Progress: 200 / 1000 subsequences sorted
+  Progress: 300 / 1000 subsequences sorted
+  Progress: 400 / 1000 subsequences sorted
+  Progress: 500 / 1000 subsequences sorted
+  Progress: 600 / 1000 subsequences sorted
+  Progress: 700 / 1000 subsequences sorted
+  Progress: 800 / 1000 subsequences sorted
+  Progress: 900 / 1000 subsequences sorted
+  Progress: 1000 / 1000 subsequences sorted
+
+Sorting complete.
+
+Global Minimum : 212174
+Global Maximum : 999999999
+Global Mean    : 500000034.53
+
+First 3 subsequences:
+  Subseq    0 -> min: 212174  max: 999999  mean: 505747.92
+  Subseq    1 -> min: 1000000  max: 1999999  mean: 1513640.04
+  Subseq    2 -> min: 2000000  max: 2999999  mean: 2511111.93
+
+Last 3 subsequences:
+  Subseq  997 -> min: 997000000  max: 997999999  mean: 997499542.46
+  Subseq  998 -> min: 998000000  max: 998999999  mean: 998500905.14
+  Subseq  999 -> min: 999000000  max: 999999999  mean: 999499229.98
+
+Order check: each subsequence range is strictly greater than the previous.
